@@ -1,0 +1,82 @@
+body {
+	background-color: #e6f9ff
+}
+
+#container
+{
+	font-family: 'Arial';
+	color: #999;
+	margin: 25.0px auto;
+    padding: 10.0px 40.0px;
+}
+
+#header h1 
+{
+    border: 1.0px solid #eee;
+    padding: 10.0px 40.0px;
+	
+}
+
+a.button, input[type=submit], input[type=reset] {
+	font: bold 1.0em;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em 0.5em;
+	background: #b8c6df; /* old browsers */
+	background: -moz-linear-gradient(top, #0099cc 0.0%, #66d9ff 100.0%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0%,#0099cc), color-stop(100.0%,#66d9ff)); /* webkit */
+	-box-shadow: 0.0 1.0px 3.0px  rgba(0.0,0.0,0.0,0.5);
+	-moz-box-shadow: 0.0 1.0px 3.0px rgba(0.0,0.0,0.0,0.5);
+	-webkit-box-shadow: 0.0 1.0px 3.0px rgba(0.0,0.0,0.0,0.5);
+	text-shadow: 0.0 -1.0px 1.0px rgba(0.0,0.0,0.0,0.25);
+}
+
+a.button:hover, input[type=submit]:hover, input[type=reset]:hover {
+	  background: #d8e6ff; /* old browsers */
+	  background: -moz-linear-gradient(top, #66d9ff 0.0%, #1ac6ff 100.0%); /* firefox */
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0%,#66d9ff), color-stop(100.0%,#1ac6ff)); /* webkit */
+}
+
+table {
+  border-collapse: collapse;
+  border: 1.0px solid #eee;
+  border-bottom: 2.0px solid #00cccc;
+  box-shadow: 0.0px 0.0px 20.0px rgba(0.0,0.0,0.0,0.1),
+     0.0px 10.0px 20.0px rgba(0.0,0.0,0.0,0.05),
+     0.0px 20.0px 20.0px rgba(0.0,0.0,0.0,0.05),
+     0.0px 30.0px 20.0px rgba(0.0,0.0,0.0,0.05);
+}
+
+thead {
+	
+    background: #b8c6df; /* old browsers */
+	background: -moz-linear-gradient(top, #ccf2ff 0.0%, #66d9ff 100.0%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0%,#0099cc), color-stop(100.0%,#66d9ff)); /* webkit */
+	-box-shadow: 0.0 1.0px 3.0px  rgba(0.0,0.0,0.0,0.5);
+	-moz-box-shadow: 0.0 1.0px 3.0px rgba(0.0,0.0,0.0,0.5);
+	-webkit-box-shadow: 0.0 1.0px 3.0px rgba(0.0,0.0,0.0,0.5);
+	text-shadow: 0.0 -1.0px 1.0px rgba(0.0,0.0,0.0,0.25);
+	color: white;
+	text-transform: uppercase;
+    font-size: 12.0px;
+}
+
+th, td {
+    border: 1.0px solid #eee;
+    padding: 12.0px 35.0px;
+    border-collapse: collapse;
+}
+
+form {
+	padding: 30px 30px 30px 0px;
+	line-height: 200%;
+}
+
+label {
+	padding: 5px 10px 5px 5px;
+}
+
+input {
+	padding: 5px;
+	
+}
